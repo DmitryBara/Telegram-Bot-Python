@@ -42,7 +42,7 @@ b) To stop container with bot just run:
 `make stop`.
 
 b) To prepare unit tests:
-`make inst-pytest` 
+`make inst-pytest`. 
 This command will instal pytest library in your docker container. Be sure that your container is active.
 
 c) To run uint test:
