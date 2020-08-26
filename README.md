@@ -1,6 +1,7 @@
 # Telegram Bot (Memes generator)
 
 ___Info___
+
 This bot takes photo from telegram user and add random funny phrase on this image (pool of phrase is customizable).
 You can add this bot to group and when bot complete to draw on picture - you can send new picture to other group (customizable).
 
@@ -12,6 +13,7 @@ ___Registration of new bot___
 	* /mybots -> bot_name -> bot settings -> group privacy -> disable mode
 
 ___Settings___
+
 All main settings could be edit in .env file in main folder.
 
 TELEGRAM_TOKEN - your telegram token getting from @botfather.
