@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 img_folder = os.getenv('IMG_FOLDER')
+if not os.path.exists(img_folder):
+    os.mkdir(img_folder)
 phrase_file_dir = os.getenv('PHRASE_FILE_DIR')
 font_file_dir = os.getenv('FONT_DIR')
 
@@ -20,7 +22,6 @@ def save_image(bot, message):
     dt = datetime.datetime.fromtimestamp(message.date)
     img_name = dt.strftime('%Y-%m-%d_%H:%M_<') + str(message.from_user.id) + '>.jpg'
     img_dir = img_folder + img_name
-
     file_id = message.photo[-1].file_id
     file_info = bot.get_file(file_id)
     downloaded_file = bot.download_file(file_info.file_path)

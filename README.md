@@ -24,8 +24,20 @@ MAX_WIDTH_OF_TEXT - max width of text block on image in percent (%) from origina
 MAX_HEIGHT_OF_TEXT - max height of text block on image in percent (%) from original image height (recomended 25%)
 CHAT_FOR_RESEND - chat_id in which bot will be resend pictures if user will choose this
 
-To start bot on yout host just run:
-`make dev`
+___Development__
+Docker, Docker-compose should be install on your host
 
+a) To start bot on your host just run:
+`make start`
+It will build image and create docker container.
 
+b) To stop container with bot just run:
+`make stop`
 
+b) To prepare unit tests:
+`make inst-pytest` 
+This command will instal pytest library in your docker container. Be sure that your container is active.
+
+c) To run uint test:
+'make test'
+It will collect testfiles and run them as though it was started from base project directory.

@@ -12,7 +12,7 @@ chat_for_resend = os.getenv('CHAT_FOR_RESEND')
 
 @bot.message_handler(content_types=["text"])
 def answer_to_text(message):
-    bot.send_message(message.chat.id, "Пришли мне фото??")
+    bot.send_message(message.chat.id, "Пришли мне фото!!!!")
 
 
 @bot.message_handler(content_types=['photo'])
@@ -21,6 +21,7 @@ def answer_to_photo(message):
     user_img = save_image(bot, message)
     new_img = edit_image(bot, user_img)
     bot.send_photo(message.chat.id, new_img, reply_markup=gen_share_markup())
+    return "Return for test"
 
 
 @bot.callback_query_handler(func=lambda call: True)

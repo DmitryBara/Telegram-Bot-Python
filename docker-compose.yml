@@ -5,7 +5,6 @@ services:
     build: .
     command: python main.py
     restart: always
-    env_file:
-      - .env
     volumes:
       - ./:/app
+    container_name: bot_master

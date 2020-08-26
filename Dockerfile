@@ -6,7 +6,6 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-
 RUN apk add --no-cache jpeg-dev zlib-dev freetype-dev
 RUN apk add --no-cache --virtual .build-deps build-base linux-headers
 
