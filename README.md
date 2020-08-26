@@ -1,6 +1,6 @@
 # Telegram Bot (Memes generator)
 
-___Info___
+___About___
 
 This bot takes photo from telegram user and add random funny phrase on this image (pool of phrase is customizable).
 You can add this bot to group and when bot complete to draw on picture - you can send new picture to other group (customizable).
