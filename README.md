@@ -17,11 +17,17 @@ ___Settings___
 All main settings could be edit in .env file in main folder.
 
 TELEGRAM_TOKEN - your telegram token getting from @botfather.
+
 IMG_FOLDER - folder where bot will be save users images.
+
 PHRASE_FILE_DIR - way to 'phrase_list.txt' file with pool of available phrases. You could also edit this file.
+
 FONT_DIR - way to font file.
+
 MAX_WIDTH_OF_TEXT - max width of text block on image in percent (%) from original image width (recomended 80%)
+
 MAX_HEIGHT_OF_TEXT - max height of text block on image in percent (%) from original image height (recomended 25%)
+
 CHAT_FOR_RESEND - chat_id in which bot will be resend pictures if user will choose this
 
 ___Development__
