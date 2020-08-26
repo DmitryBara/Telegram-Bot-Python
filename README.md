@@ -14,7 +14,7 @@ ___Registration of new bot___
 
 ___Settings___
 
-All main settings could be edit in .env file in main folder.
+All settings could be edit in .env file in base folder.
 
 TELEGRAM_TOKEN - your telegram token getting from @botfather.
 
