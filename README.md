@@ -24,5 +24,8 @@ MAX_WIDTH_OF_TEXT - max width of text block on image in percent (%) from origina
 MAX_HEIGHT_OF_TEXT - max height of text block on image in percent (%) from original image height (recomended 25%)
 CHAT_FOR_RESEND - chat_id in which bot will be resend pictures if user will choose this
 
+To start bot on yout host just run:
+`make dev`
+
 
 
