@@ -32,19 +32,19 @@ CHAT_FOR_RESEND - chat_id in which bot will be resend pictures if user will choo
 
 ___Development___
 
-Docker, Docker-compose should be install on your host
+Docker, Docker-compose should be install on your host.
 
 a) To start bot on your host just run:
 `make start`
 It will build image and create docker container.
 
 b) To stop container with bot just run:
-`make stop`
+`make stop`.
 
 b) To prepare unit tests:
 `make inst-pytest` 
 This command will instal pytest library in your docker container. Be sure that your container is active.
 
 c) To run uint test:
-`make test`
+`make test`.
 It will collect testfiles and run them as though it was started from base project directory.
