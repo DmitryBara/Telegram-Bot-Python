@@ -30,7 +30,8 @@ MAX_HEIGHT_OF_TEXT - max height of text block on image in percent (%) from origi
 
 CHAT_FOR_RESEND - chat_id in which bot will be resend pictures if user will choose this
 
-___Development__
+___Development___
+
 Docker, Docker-compose should be install on your host
 
 a) To start bot on your host just run:
@@ -45,5 +46,5 @@ b) To prepare unit tests:
 This command will instal pytest library in your docker container. Be sure that your container is active.
 
 c) To run uint test:
-'make test'
+`make test`
 It will collect testfiles and run them as though it was started from base project directory.
